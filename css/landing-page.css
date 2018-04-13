@@ -17,7 +17,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/tree-3204332_1920.jpg") no-repeat center center;
+  background: url("../img/tree-3204332_1280.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -64,8 +64,17 @@ header.masthead h1 {
 }
 
 .showcase .showcase-img {
-  min-height: 30rem;
+  width: 100vw;
+  height: 66vw;
   background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-img {
+    min-height: 30rem;
+    max-height: 30rem;
+    background-size: cover;
+  }
 }
 
 .features-icons {
