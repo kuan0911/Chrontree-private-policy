@@ -53,6 +53,12 @@ header.masthead h1 {
   }
 }
 
+.mockupimg {
+  margin: 0 auto;
+  height: auto;
+  width: 13rem;
+}
+
 .showcase .showcase-text {
   padding: 3rem;
 }
